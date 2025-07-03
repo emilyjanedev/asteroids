@@ -28,6 +28,10 @@ def main():
                 return
 
         updatable.update(dt)
+        for asteroid in asteroids:
+            if asteroid.collides_with(player):
+                print("Game over!")
+                return
 
         screen.fill("black")
 
@@ -37,7 +41,7 @@ def main():
         pygame.display.flip()
 
         # limit the framerate to 60 FPS
-        dt = game_clock.tick(60)
+        dt = game_clock.tick(60) / 1000
 
 if __name__ == "__main__":
     main()
