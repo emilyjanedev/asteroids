@@ -17,30 +17,30 @@ This project uses `uv` for dependency management and packaging.
 
 1. Clone the Repository
 
-```bash
-git clone https://github.com/emilyjanedev/asteroids.git
-cd asteroids
-```
+   ```bash
+   git clone https://github.com/emilyjanedev/asteroids.git
+   cd asteroids
+   ```
 
 2. Install Dependencies
 
-If you don't have uv installed:
+   If you don't have uv installed:
 
-```bash
-pip install uv
-```
+   ```bash
+   pip install uv
+   ```
 
-Then install dependecies:
+   Then install dependecies:
 
-```bash
-uv pip install -r requirements.txt
-```
+   ```bash
+   uv pip install -r requirements.txt
+   ```
 
 3. Run the Game
 
-```bash
-uv run main.py
-```
+   ```bash
+   uv run main.py
+   ```
 
 ## 🧩 Dependencies
 
